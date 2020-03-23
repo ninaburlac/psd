@@ -162,3 +162,93 @@ Correction of AoE...
    7  p6          -9.80300e-01   7.07190e-02  -5.24804e-03  -7.72109e-01
    8  p7           5.00001e-03   5.25305e-03   6.38097e-04** at limit **
                                ERR DEF= 0.5
+ FCN=83.935 FROM MIGRAD    STATUS=CONVERGED    1303 CALLS        1304 TOTAL
+                     EDM=2.63788e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp. - A/E   1.01042e+01   1.26837e+00   2.24505e-03   1.03802e-04
+   2  Mean - A/E   9.97482e-01   1.07561e-03   3.13277e-04   8.86727e-04
+   3  Sigma - A/E   8.54740e-03   9.62398e-04   4.69957e-04  -4.05168e-04
+   4  p3           2.63438e+00   4.52748e-01   1.63093e-03  -1.21250e-03
+   5  p4           1.12085e+01   8.36539e+00   5.61065e-03   4.46696e-04
+   6  p5           9.76048e-01   2.22057e-02   4.34792e-05   1.83959e-02
+   7  p6          -1.06171e-02   7.53839e-01   1.18870e-03  -2.25905e-03
+   8  p7           1.91496e-02   3.67520e-03   4.55594e-04   1.14459e-03
+                               ERR DEF= 0.5
+ FCN=104.785 FROM MIGRAD    STATUS=CONVERGED    1114 CALLS        1115 TOTAL
+                     EDM=4.76528e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp. - A/E   1.38980e+01   1.79720e+00   2.61277e-03   7.04043e-04
+   2  Mean - A/E   9.98482e-01   8.66317e-04   2.70483e-04   7.60986e-03
+   3  Sigma - A/E   6.56069e-03   9.83736e-04   6.47822e-04   4.78436e-03
+   4  p3           3.49324e+00   4.46898e-01   1.94318e-03  -1.49121e-04
+   5  p4           8.37412e+00   4.18291e+00   3.87192e-03   3.97473e-04
+   6  p5           9.87822e-01   1.48756e-02   3.87626e-05   8.23735e-02
+   7  p6          -3.87234e-02   1.18685e-01   6.97752e-04  -1.58720e-03
+   8  p7           1.76532e-02   3.64325e-03   4.80155e-04   6.05943e-04
+                               ERR DEF= 0.5
+ FCN=111.673 FROM MIGRAD    STATUS=CONVERGED     796 CALLS         797 TOTAL
+                     EDM=8.38875e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.5 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp. - A/E   1.60421e+01   1.76311e+00   7.21855e-05  -9.66772e-06
+   2  Mean - A/E   9.96736e-01   1.00265e-03  -9.60753e-05  -4.86245e-03
+   3  Sigma - A/E   8.39033e-03   9.38087e-04   3.40956e-06   1.59018e-03
+   4  p3           3.11552e+00   5.48538e-01  -6.41563e-04   8.81409e-04
+   5  p4           7.66994e+00   1.24703e+00  -1.01870e-03  -6.86643e-05
+   6  p5           9.98607e-01   7.37424e-03   3.57039e-06   9.33194e-03
+   7  p6          -2.07301e-12   2.69994e-02   2.17641e-05** at limit **
+   8  p7           1.13226e-02   2.51665e-03  -5.80745e-05  -3.26398e-05
+                               ERR DEF= 0.5
+
+****************************************
+Minimizer is Linear
+Chi2                      =      12.1256
+NDf                       =           10
+p0                        =      1.01101   +/-   0.00317089  
+p1                        = -5.79564e-06   +/-   1.52717e-06 
+1.01101
+-5.79564e-06
+0.00317089
+1.52717e-06
+0.0458908
+Calculation of survival fraction for 2104
+ FCN=313.434 FROM MIGRAD    STATUS=CONVERGED     233 CALLS         234 TOTAL
+                     EDM=1.39041e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp.         6.56897e+00   7.99857e-01   7.74244e-03   6.77939e-05
+   2  Mean         6.28335e+03   4.77864e-01   5.80510e-03   1.11411e-04
+   3  Sigma        4.23963e+00   4.32014e-01   2.03936e-04  -1.14449e-03
+   4  Flat Bkg     1.07541e+00   4.70228e-02   5.63175e-04   1.44502e-03
+                               ERR DEF= 0.5
+ FCN=293.692 FROM MIGRAD    STATUS=CONVERGED      75 CALLS          76 TOTAL
+                     EDM=3.7802e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.6 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp.         2.81270e+00   5.57907e-01   1.65748e-03  -4.55969e-05
+   2  Mean         6.28354e+03   9.08955e-01  -1.19571e-04  -4.17808e-05
+   3  Sigma        3.96935e+00   6.70173e-01  -1.23271e-04  -8.71965e-04
+   4  Flat Bkg     7.07775e-01   3.83805e-02   5.47538e-05   1.53462e-03
+                               ERR DEF= 0.5
+Calculation of survival fraction for 2614.5
+ FCN=263.536 FROM MIGRAD    STATUS=CONVERGED     201 CALLS         202 TOTAL
+                     EDM=9.05943e-10    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.9 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp.         4.89349e+01   2.09024e+00   8.94861e-04  -2.15243e-06
+   2  Mean         7.80949e+03   1.30631e-01  -1.08480e-04  -4.77443e-05
+   3  Sigma        3.75339e+00   1.08638e-01   1.75807e-06   6.34144e-03
+   4  Flat Bkg     2.69926e-01   2.40319e-02  -4.05978e-05   1.19673e-04
+                               ERR DEF= 0.5
+ FCN=155.949 FROM MIGRAD    STATUS=CONVERGED     181 CALLS         182 TOTAL
+                     EDM=5.06993e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp.         2.60393e+01   1.50891e+00   9.46489e-03  -4.56369e-04
+   2  Mean         7.80943e+03   1.73950e-01   2.77971e-04  -3.35356e-04
+   3  Sigma        3.64772e+00   1.36174e-01  -5.27248e-05  -1.32796e-01
+   4  Flat Bkg     1.15806e-01   1.57570e-02   6.36324e-05  -4.13384e-02
+                               ERR DEF= 0.5
+Calculation of survival fraction background at 2039

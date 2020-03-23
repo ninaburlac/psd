@@ -6,3 +6,8 @@ qstat -u dandrea |  grep psd | wc -l
 1
 1
 1
+1
+1
+1
+1
+0

@@ -1,0 +1,4 @@
+./submitPSD.pl 0 1 /nfs/gerda6 >& PSDtest.out &
+
+
+

@@ -36,7 +36,7 @@ FFTWFLAGS     =  -lfftw3
 
 PROGRAM       = processPSD 
 
-SRCS	      = processPSD.cpp 
+SRCS	      = processPSD_v2.cpp 
 
 OBJ           = $(patsubst %.cc, %.o, $(SRCS)) 
 
@@ -44,10 +44,21 @@ src           = $(addprefix ./,$(SRCS))
 obj           = $(addprefix ./,$(OBJ))
 prg           = $(addprefix ./,$(PROGRAM))
 
+
+PROGRAMII       = readTier 
+
+SRCSII	      = readTier.cpp 
+
+OBJII           = $(patsubst %.cc, %.o, $(SRCSII)) 
+
+srcII           = $(addprefix ./,$(SRCSII))
+objII           = $(addprefix ./,$(OBJII))
+prgII           = $(addprefix ./,$(PROGRAMII))
+
 # -----------------------------------------------------------------------------
 
 
-all:: $(prg) $(con)
+all:: $(prg) $(prgII) $(con)
 
 $(con): $(objc) 
 	$(CXX) -o $@ $^ $(LDFLAGS)  $(FFTWFLAGS) $(FFTWLIBS)
@@ -76,7 +87,8 @@ $(prg):$(obj)
 
 clean::
 	rm -f $(con)
-	rm -f $(prg)
+	rm -f $(prg)	
+	rm -f $(prgII)	
 
 # -----------------------------------------------------------------------------
 

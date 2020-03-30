@@ -1,0 +1,6 @@
+4592638.xmaster.lngs.infn.it
+qsub -N read -q gerda -V -d /nfs/gerda6/users/burlac/psd/analysis -m abe -e localhost:/nfs/gerda6/users/burlac/psd/analysis/read_1.err -o localhost:/nfs/gerda6/users/burlac/psd/analysis/read_1.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/analysis/scriptread.sh
+qstat -u dandrea |  grep read | wc -l 
+1
+1
+1

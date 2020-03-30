@@ -1,0 +1,34 @@
+4587243.xmaster.lngs.infn.it
+qsub -N psd_30 -q gerda -V -d /nfs/gerda6/users/burlac/psd/chn30 -m abe -e localhost:/nfs/gerda6/users/burlac/psd/chn30/psd_30.err -o localhost:/nfs/gerda6/users/burlac/psd/chn30/psd_30.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/chn30/script_chn30.sh
+4587244.xmaster.lngs.infn.it
+qsub -N psd_31 -q gerda -V -d /nfs/gerda6/users/burlac/psd/chn31 -m abe -e localhost:/nfs/gerda6/users/burlac/psd/chn31/psd_31.err -o localhost:/nfs/gerda6/users/burlac/psd/chn31/psd_31.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/chn31/script_chn31.sh
+4587249.xmaster.lngs.infn.it
+qsub -N psd_32 -q gerda -V -d /nfs/gerda6/users/burlac/psd/chn32 -m abe -e localhost:/nfs/gerda6/users/burlac/psd/chn32/psd_32.err -o localhost:/nfs/gerda6/users/burlac/psd/chn32/psd_32.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/chn32/script_chn32.sh
+4587250.xmaster.lngs.infn.it
+qsub -N psd_33 -q gerda -V -d /nfs/gerda6/users/burlac/psd/chn33 -m abe -e localhost:/nfs/gerda6/users/burlac/psd/chn33/psd_33.err -o localhost:/nfs/gerda6/users/burlac/psd/chn33/psd_33.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/chn33/script_chn33.sh
+4587255.xmaster.lngs.infn.it
+qsub -N psd_34 -q gerda -V -d /nfs/gerda6/users/burlac/psd/chn34 -m abe -e localhost:/nfs/gerda6/users/burlac/psd/chn34/psd_34.err -o localhost:/nfs/gerda6/users/burlac/psd/chn34/psd_34.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/chn34/script_chn34.sh
+4587258.xmaster.lngs.infn.it
+qsub -N psd_35 -q gerda -V -d /nfs/gerda6/users/burlac/psd/chn35 -m abe -e localhost:/nfs/gerda6/users/burlac/psd/chn35/psd_35.err -o localhost:/nfs/gerda6/users/burlac/psd/chn35/psd_35.out -l mem=4000mb /nfs/gerda6/users/burlac/psd/chn35/script_chn35.sh
+qstat -u burlac |  grep psd | wc -l 
+30
+30
+30
+30
+30
+30
+30
+30
+30
+30
+25
+9
+8
+8
+8
+8
+6
+6
+6
+2
+0

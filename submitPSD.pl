@@ -18,7 +18,7 @@ my $localdir = $ENV{PWD};
 my $firstchn = $ARGV[0];#$configfile->{FirstChannel};
 my $nchn = $ARGV[1];#$configfile->{NChannels};
 my $lastchn = $firstchn + $nchn;
-my $tier2file = $ARGV[2];
+my $tierfile = $ARGV[2];
 
 my $myUser = $ENV{'USER'};
 
@@ -26,15 +26,20 @@ my $myUser = $ENV{'USER'};
 my $old_umask = umask;
 umask 0000;
 
+my $resdir = $localdir . "/analysis";
+mkdir "$resdir", 0770 unless -d "$resdir";
+
+my @cmd = ( "!psdcommand!");
+
+
 for(my $chn = $firstchn; $chn < $lastchn; $chn++){
-    my $thisdir = $localdir . "/chn" . $chn;
+    #my $thisdir = $localdir . "/chn" . $chn;
+    my $thisdir = $resdir . "/chn" . $chn;
     mkdir "$thisdir", 0770 unless -d "$thisdir";
-    
-    my @cmd = ( "!psdcommand!");
     
     my $psdprogram = $localdir . "/processPSD";
     my $psdout = $thisdir . "/psd_chn" . $chn . ".out";
-    my $psdcommand = $psdprogram . " " . $thisdir . " " . $tier2file . " " . $chn . " > " . $psdout; 
+    my $psdcommand = $psdprogram . " " . $thisdir . " " . $tierfile . " " . $chn . " > " . $psdout; 
     
     ### submit noise script
     
@@ -77,7 +82,7 @@ while ($inQueue) {
 	umask $old_umask;
 	
 	my $from = 'psdtest';
-	my $to = 'valerio.dandrea\@lngs.infn.it';
+	my $to = 'ninaburlac.nb\@gmail.com';
 	my $subject = "psd";
 	#my $fwhmFile = $scandir . "/FWHM_chn" . $chn . ".txt";
 	my $body = "Hi, \n this is an automatic message from the test of the PSD";

@@ -1,0 +1,5 @@
+-bash: /users/d/dandrea/.bash_profile: Permesso negato
+Info in <TCanvas::Print>: pdf file chn0_spectrum.pdf has been created
+Warning in <Fit>: Abnormal termination of minimization.
+Info in <TCanvas::Print>: pdf file chn0_DEP_FEP_calib.pdf has been created
+Info in <TCanvas::Print>: pdf file chn0_AoE_onlyDEP.pdf has been created

@@ -1,0 +1,30 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Using file /nfs/gerda6/users/burlac/psd/analysis/run0095-cal.tier.root
+Analizing channel 0 using Standard Analysis ...
+ FCN=24.9073 FROM MIGRAD    STATUS=CALL LIMIT   1960 CALLS        1961 TOTAL
+                     EDM=0.00395724    STRATEGY= 1      ERR MATRIX NOT POS-DEF
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp. - DEP   2.31741e+01   5.39905e+00   1.46847e-01   6.46297e-04
+   2  Mean - DEP   1.59260e+03   3.33771e-02   4.85447e-04  -8.02290e-01
+   3  Sigma - DEP   2.22913e-01   1.73744e-02   1.25724e-04  -1.93212e+00
+   4  Amp. - FEP  -1.31181e+01   4.20143e+00   7.79522e-02  -5.63322e-03
+   5  Mean - FEP   1.61356e+03   5.61859e-02  -1.20903e-03  -4.37031e-01
+   6  Sigma - FEP   2.35626e+00   6.37313e-02   8.00526e-05   9.66458e+00
+   7  Flat Bkg     3.40048e-01   2.15001e-02  -5.13039e-04   5.14166e-02
+                               ERR DEF= 0.5
+mean_aoe = 0.04935
+ FCN=5.62062 FROM MIGRAD    STATUS=CONVERGED     424 CALLS         425 TOTAL
+                     EDM=5.31452e-10    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.0 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Amp. - A/E   2.85607e-01   2.47649e-01   1.21126e-04   9.12951e-05
+   2  Mean - A/E   1.00230e+00   2.64067e-03   4.21126e-06   3.23817e-03
+   3  Sigma - A/E   3.67828e-03   1.71189e-03   2.20075e-07   5.04855e-04
+   4  Flat Bkg     1.25315e-03   1.75715e-03   2.88299e-06   3.24111e+00
+   5  Linear Bkg   5.52123e-04   7.72372e-04   1.26734e-06  -7.39938e+00
+                               ERR DEF= 0.5

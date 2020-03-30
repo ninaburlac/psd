@@ -1,0 +1,59 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Read events from /nfs/gerda5/gerda-data/blind/v06.13/meta/data-sets/cal/run0098-cal-analysis.txt
+Using file: /nfs/gerda5/gerda-data/blind/v06.13/gen/tier2/ged/cal/run0098/gerda-run0098-20181015T151843Z-cal-ged-tier2.root
+Using file: /nfs/gerda5/gerda-data/blind/v06.13/gen/tier3/all/cal/run0098/gerda-run0098-20181015T151843Z-cal-all-tier3.root
+Number of events = 160688
+event n.10000
+event n.20000
+event n.30000
+event n.40000
+event n.50000
+event n.60000
+event n.70000
+event n.80000
+event n.90000
+event n.100000
+event n.110000
+event n.120000
+event n.130000
+event n.140000
+event n.150000
+event n.160000
+Using file: /nfs/gerda5/gerda-data/blind/v06.13/gen/tier2/ged/cal/run0098/gerda-run0098-20181015T152344Z-cal-ged-tier2.root
+Using file: /nfs/gerda5/gerda-data/blind/v06.13/gen/tier3/all/cal/run0098/gerda-run0098-20181015T152344Z-cal-all-tier3.root
+Number of events = 161625
+event n.10000
+event n.20000
+event n.30000
+event n.40000
+event n.50000
+event n.60000
+event n.70000
+event n.80000
+event n.90000
+event n.100000
+event n.110000
+event n.120000
+event n.130000
+event n.140000
+event n.150000
+event n.160000
+Using file: /nfs/gerda5/gerda-data/blind/v06.13/gen/tier2/ged/cal/run0098/gerda-run0098-20181015T152846Z-cal-ged-tier2.root
+Using file: /nfs/gerda5/gerda-data/blind/v06.13/gen/tier3/all/cal/run0098/gerda-run0098-20181015T152846Z-cal-all-tier3.root
+Number of events = 162174
+event n.10000
+event n.20000
+event n.30000
+event n.40000
+event n.50000
+event n.60000
+event n.70000
+event n.80000
+event n.90000
+event n.100000
+event n.110000
+event n.120000

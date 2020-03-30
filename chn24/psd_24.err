@@ -1,0 +1,28 @@
+Info in <TCanvas::Print>: pdf file chn24_DEP-FEP.pdf has been created
+Info in <TCanvas::Print>: pdf file chn24_AoE_onlyDEP.pdf has been created
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <Fit>: Abnormal termination of minimization.
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: h_AoE (Potential memory leak).
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_AoE_fits.pdf has been created
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_AoE_vs_E.pdf has been created
+Warning in <TFile::Append>: Replacing existing TH1: h_ene (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: hene_psa (Potential memory leak).
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_PSA_peak2104.pdf has been created
+Warning in <TFile::Append>: Replacing existing TH1: h_ene (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: hene_psa (Potential memory leak).
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_PSA_peak2614.5.pdf has been created
+Warning in <TFile::Append>: Replacing existing TH1: h_ene (Potential memory leak).
+Warning in <TFile::Append>: Replacing existing TH1: hene_psa (Potential memory leak).
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_AoE_DEP.pdf has been created
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_PSA_DEP-FEP.pdf has been created
+Info in <TCanvas::Print>: pdf file /nfs/gerda6/users/burlac/psd/chn24/chn24_PSA_bkg2039.pdf has been created
